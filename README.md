@@ -1,6 +1,6 @@
 # BlumSmart Auto-Clicker by FLUX
 
-![BlumSmart Auto-Clicker Logo](images/icon.ico)
+![BlumSmart Auto-Clicker Logo](Source-Code/images/icon.ico)
 
 BlumSmart Auto-Clicker — это продвинутый авто-кликер, специально предназначенный для определенной онлайн-игры, автоматизирующий игровые действия, такие как сбор наград и игра. Этот инструмент построен с использованием Python и имеет удобный интерфейс PyQt5, что обеспечивает простоту использования и детализированную обратную связь о выполнении операций.
 
