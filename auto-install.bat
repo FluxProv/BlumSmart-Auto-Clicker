@@ -34,6 +34,19 @@ if not exist "Files\compile" mkdir "Files\compile"
 move /Y dist\BlumClicker.exe Files\compile\
 move /Y Source-Code\images Files\compile\
 rmdir /s /q dist
+rmdir /s /q build
+del *.spec
+
+:: Создание ярлыка
+echo Создание ярлыка...
+set "targetPath=%CD%\Files\compile\BlumClicker.exe"
+set "iconPath=%CD%\Files\compile\images\icon.ico"
+powershell -Command ^
+    "$ws = New-Object -ComObject WScript.Shell; ^
+    $s = $ws.CreateShortcut('%~dp0BlumClicker.lnk'); ^
+    $s.TargetPath = '%targetPath%'; ^
+    $s.IconLocation = '%iconPath%'; ^
+    $s.Save()"
 
 :: Сообщение о завершении установки
 echo -------------------------
