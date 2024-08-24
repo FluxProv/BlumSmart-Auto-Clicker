@@ -51,6 +51,7 @@ BlumSmart Auto-Clicker — это продвинутый авто-кликер, 
 ## Разработчик
 
 - **FLUX** - [GitHub](https://github.com/FluxProv)
+- - **Telegram** - (https://t.me/iamfluxx)
 
 ## Лицензия
 
